@@ -1,7 +1,6 @@
 import os
 
 FILENAME = "tasks.txt"
-
 def load_tasks():
     if os.path.exists(FILENAME):
         with open(FILENAME, "r") as file:
@@ -70,7 +69,5 @@ def main():
             print("Invalid choice. Please enter 1-5.")
         
 if __name__ == "__main__":
-    main()
-
-        
+    main() 
                         
